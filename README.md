@@ -46,9 +46,9 @@ The dataset includes the following product categories:
 ### Feature Scaling
 Scaling is applied to normalize the data distribution.
 #### Before Normalization
-![Before Normalization](https://github.com/geekquad/Customer-Segments/blob/master/img/before%20normalizing.png)
+![Before Normalization]()
 #### After Normalization
-![After Normalization](https://github.com/geekquad/Customer-Segments/blob/master/img/after%20normalilzing.png)
+![After Normalization]()
 
 ---
 
@@ -56,14 +56,14 @@ Scaling is applied to normalize the data distribution.
 
 ### PCA Implementation
 Principal Component Analysis (PCA) is used to reduce dimensionality.
-![PCA Implementation](https://github.com/geekquad/Customer-Segments/blob/master/img/pca%20implementation.png)
+![PCA Implementation](g)
 
 ### Dimensionality Reduction
-![Dimensionality Reduction](https://github.com/geekquad/Customer-Segments/blob/master/img/dimension%20reductionality.png)
+![Dimensionality Reduction]()
 
 ### Biplot Visualization
 A biplot visualizes data points in terms of principal components, showing the relationship between components and original features.
-![Biplot](https://github.com/geekquad/Customer-Segments/blob/master/img/biplot.png)
+![Biplot]()
 
 ---
 
@@ -72,12 +72,12 @@ A biplot visualizes data points in terms of principal components, showing the re
 The Gaussian Mixture Model (GMM) algorithm is chosen for its soft classification capability, enhanced by the PCA dimensionality reduction.
 
 ### GMM Clustering Visualization
-![GMM Clustering](https://github.com/geekquad/Customer-Segments/blob/master/img/gmm%20cluster.png)
+![GMM Clustering]()
 
 ---
 
 ## Visualizing Underlying Distributions
-![Underlying Distributions](https://github.com/geekquad/Customer-Segments/blob/master/img/underlying%20distributions.png)
+![Underlying Distributions]()
 
 ### Final Conclusion
 - The GMM clustering effectively identified key customer segments, though some anomalies remain, such as retailers within the hotel/restaurant/cafe cluster.
