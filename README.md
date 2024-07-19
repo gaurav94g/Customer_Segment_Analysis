@@ -1,7 +1,5 @@
 # Customer_Segment_Analysis
 
-# Customer Segmentation Analysis
-
 This project involves analyzing a dataset of annual spending by customers across various product categories to uncover patterns and segment customers. The goal is to understand the different types of customers a wholesale distributor serves, providing insights to optimize their delivery services.
 
 The dataset can be found on the [ML Repository](https://archive.ics.uci.edu/ml/datasets/Wholesale+customers). The analysis excludes the 'Channel' and 'Region' features, focusing on six product categories.
@@ -37,7 +35,7 @@ The dataset includes the following product categories:
   - **Conclusion:** Possibly a supplier with a small restaurant business or a supermarket with an attached small restaurant.
 
 ### Feature Distribution
-![Feature Distribution]()
+![Feature Distribution](https://github.com/gaurav94g/Customer_Segment_Analysis/blob/main/Image/each_per.png)
 
 ---
 
@@ -46,9 +44,9 @@ The dataset includes the following product categories:
 ### Feature Scaling
 Scaling is applied to normalize the data distribution.
 #### Before Normalization
-![Before Normalization]()
+![Before Normalization](https://github.com/gaurav94g/Customer_Segment_Analysis/blob/main/Image/bef_normal.png)
 #### After Normalization
-![After Normalization]()
+![After Normalization](https://github.com/gaurav94g/Customer_Segment_Analysis/blob/main/Image/aft_normal.png)
 
 ---
 
@@ -56,14 +54,14 @@ Scaling is applied to normalize the data distribution.
 
 ### PCA Implementation
 Principal Component Analysis (PCA) is used to reduce dimensionality.
-![PCA Implementation](g)
+![PCA Implementation](https://github.com/gaurav94g/Customer_Segment_Analysis/blob/main/Image/pca.png)
 
 ### Dimensionality Reduction
-![Dimensionality Reduction]()
+![Dimensionality Reduction](https://github.com/gaurav94g/Customer_Segment_Analysis/blob/main/Image/dmns_reduction.png)
 
 ### Biplot Visualization
 A biplot visualizes data points in terms of principal components, showing the relationship between components and original features.
-![Biplot]()
+![Biplot](https://github.com/gaurav94g/Customer_Segment_Analysis/blob/main/Image/bi_plot.png)
 
 ---
 
@@ -72,12 +70,12 @@ A biplot visualizes data points in terms of principal components, showing the re
 The Gaussian Mixture Model (GMM) algorithm is chosen for its soft classification capability, enhanced by the PCA dimensionality reduction.
 
 ### GMM Clustering Visualization
-![GMM Clustering]()
+![GMM Clustering](https://github.com/gaurav94g/Customer_Segment_Analysis/blob/main/Image/cluster.png)
 
 ---
 
 ## Visualizing Underlying Distributions
-![Underlying Distributions]()
+![Underlying Distributions](https://github.com/gaurav94g/Customer_Segment_Analysis/blob/main/Image/under_dist.png)
 
 ### Final Conclusion
 - The GMM clustering effectively identified key customer segments, though some anomalies remain, such as retailers within the hotel/restaurant/cafe cluster.
